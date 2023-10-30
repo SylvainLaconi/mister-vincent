@@ -12,7 +12,7 @@ export default function Home() {
             backgroundPosition: "center",
             backgroundSize: "cover",
       }}>
-        <h1 className='text-6xl font-semibold text-[#c6d200]'>Mister Vincent</h1>
+        <h1 className='text-6xl font-semibold text-center text-[#c6d200]'>Mister Vincent</h1>
 
         <div className="flex place-items-center pt-10">
           <Image
