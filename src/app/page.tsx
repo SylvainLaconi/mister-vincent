@@ -16,7 +16,6 @@ export default function Home() {
 
         <div className="flex place-items-center pt-10">
           <Image
-            className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
             src="/mister-vincent-logo.png"
             alt="Logo Mister Vincent"
             width={283}
