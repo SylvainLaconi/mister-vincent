@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Mister Vincent - Home Organizer',
-  description: 'Besoin de place ? De vider une maison ? Vous déménagez ? Je suis là pour vous aider !',
+  title: 'Mister Vincent | Home Organizer & Coach en rangement à Lyon',
+  description: "Je vous accompagne pour optimiser, transformer et organiser vos espaces de vie et de travail. A l'écoute de vos contraintes et de vos besoins pour vous proposer des solutions adaptées à votre mode de vie.",
 }
 
 export default function RootLayout({
