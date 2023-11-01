@@ -1,3 +1,40 @@
 {
-  "extends": "next/core-web-vitals"
+	"parser": "@typescript-eslint/parser",
+	"plugins": [
+		"@typescript-eslint",
+		"simple-import-sort",
+		"react-hooks",
+		"prettier",
+		"jsonc",
+		"unused-imports"
+	],
+	"extends": [
+		"next/core-web-vitals",
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:react/recommended",
+		"plugin:react-hooks/recommended",
+		"plugin:react/jsx-runtime",
+		"plugin:jsonc/recommended-with-json",
+		"plugin:prettier/recommended"
+	],
+	"rules": {
+		"prefer-const": "error",
+		"@typescript-eslint/no-unused-vars": ["error"],
+		"simple-import-sort/imports": "error",
+		"simple-import-sort/exports": "error",
+		"react-hooks/exhaustive-deps": "warn"
+	},
+	"overrides": [
+		{
+			"files": ["*.graphql", "*.gql"],
+			"extends": "plugin:@graphql-eslint/schema-recommended"
+		}
+	],
+	"ignorePatterns": [
+		"**/*.generated.tsx",
+		"/src/graphql/introspection.json",
+		"/src/graphql/types.ts"
+	]
 }
+
