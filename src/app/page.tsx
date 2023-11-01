@@ -23,8 +23,10 @@ export default function Home() {
             priority
           />
         </div>
-        <p className='pt-10 text-center'>Mon site est en construction, mais je suis prêt à vous aider !</p> 
-        <p className='pt-5 text-center'>Contactez-moi au <a href="tel:+33664758405" className='font-semibold'>+33 6 64 75 84 05</a> ou par email à <a href='mailto:vincent@mister-vincent.fr' target="_blank" className='font-semibold'>vincent@mister-vincent.fr</a></p>
+        <p className='pt-10 text-center text-black'>Mon site est en construction, mais je suis prêt à vous aider !</p> 
+
+        <p className='pt-5 text-center text-black'>Contactez-moi au <a href="tel:+33664758405" className='font-semibold'>+33 6 64 75 84 05</a> ou par email à <a href='mailto:vincent@mister-vincent.fr' target="_blank" className='font-semibold'>vincent@mister-vincent.fr</a></p>
+        
         <p className='pt-5 text-center text-white'>Mister Vincent - Home Organizer</p>
       </div>
     </main>
