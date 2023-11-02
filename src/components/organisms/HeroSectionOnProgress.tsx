@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import * as React from 'react';
 import logo from '../../../public/mister-vincent-logo-white.webp';
 import heroImage from '../../../public/mister-vincent-hero.webp';
