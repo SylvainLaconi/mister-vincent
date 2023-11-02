@@ -1,9 +1,9 @@
-import { HeroSectionOnProgress } from '@/components/organisms/HeroSectionOnProgress';
+import { HeroSection } from '@/components/organisms/HeroSection';
 
 export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col items-center">
-			<HeroSectionOnProgress />
+			<HeroSection />
 		</main>
 	);
 }
