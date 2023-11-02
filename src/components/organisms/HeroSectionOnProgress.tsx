@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from 'next/image';
 import * as React from 'react';
 import logo from '../../../public/mister-vincent-logo-white.webp';
 import heroImage from '../../../public/mister-vincent-hero.webp';
@@ -27,6 +27,10 @@ export const HeroSectionOnProgress = () => {
 						width={300}
 						height={300}
 						priority
+						style={{
+							maxWidth: '100%',
+							height: 'auto',
+						}}
 					/>
 				</div>
 

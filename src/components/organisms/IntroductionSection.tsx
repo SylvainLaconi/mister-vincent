@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from 'next/image';
 import * as React from 'react';
 import portrait from '../../../public/mister-vincent-portrait.webp';
 
@@ -19,7 +19,12 @@ export const IntroductionSection = () => {
 							alt="Portrait Mister Vincent"
 							width={328}
 							height={410}
-							style={{ borderRadius: '12px', width: '100%', height: 'auto' }}
+							style={{
+								borderRadius: '12px',
+								width: '100%',
+								height: 'auto',
+								maxWidth: '100%',
+							}}
 						/>
 					</div>
 					<div className="flex flex-col w-full lg:w-2/3 xl:w-2/3 2xl:w-2/3 gap-5 items-start justify-center">
