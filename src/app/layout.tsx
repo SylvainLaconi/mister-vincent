@@ -17,7 +17,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="fr">
-			<body className={lexendDeca.className}>{children}</body>
+			<body className={lexendDeca.className} cz-shortcut-listen="true">
+				{children}
+			</body>
 		</html>
 	);
 }

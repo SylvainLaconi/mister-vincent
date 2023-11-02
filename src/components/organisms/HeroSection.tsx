@@ -1,7 +1,18 @@
+'use client';
+
 import Image from 'next/image';
 import * as React from 'react';
 
 export const HeroSection = () => {
+	const scrolltoHash = function (element_id: string) {
+		const element = document.getElementById(element_id);
+		element?.scrollIntoView({
+			behavior: 'smooth',
+			block: 'end',
+			inline: 'nearest',
+		});
+	};
+
 	return (
 		<div
 			className="flex flex-col items-center justify-center p-5 gap-10"
@@ -24,10 +35,13 @@ export const HeroSection = () => {
 			</div>
 
 			<h1 className="text-5xl font-semibold text-center text-white">
-				Mister Vincent Solutions
+				Mister Vincent
 			</h1>
 
-			<button className="rounded-full bg-[#c6d200] text-white transition ease-in-out delay-100 hover:bg-[#B1BB00] px-5 py-3">
+			<button
+				className="rounded-full bg-[#c6d200] text-white transition ease-in-out delay-100 hover:bg-[#B1BB00] px-5 py-3"
+				onClick={() => scrolltoHash('contact')}
+			>
 				Contactez-moi
 			</button>
 		</div>
