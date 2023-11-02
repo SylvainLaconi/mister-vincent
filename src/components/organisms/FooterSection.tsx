@@ -7,6 +7,7 @@ import {
 	BsLinkedin,
 	BsYoutube,
 } from 'react-icons/bs';
+import logo from '../../../public/mister-vincent-logo-white.webp';
 
 export const FooterSection = () => {
 	return (
@@ -15,11 +16,10 @@ export const FooterSection = () => {
 				<div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-center">
 					<div className="flex items-start w-full justify-center lg:justify-start xl:justify-start 2xl:justify-start">
 						<Image
-							src="/mister-vincent-logo-white.webp"
+							src={logo}
 							alt="Logo Mister Vincent"
 							width={120}
 							height={120}
-							priority
 						/>
 					</div>
 					<div className="flex flex-col w-full gap-10 p-5 text-center lg:text-start xl:text-start 2xl:text-start">

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import * as React from 'react';
+import portrait from '../../../public/mister-vincent-portrait.webp';
 
 export const IntroductionSection = () => {
 	return (
@@ -14,7 +15,7 @@ export const IntroductionSection = () => {
 				<div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-center gap-10">
 					<div className="w-full lg:w-1/3 xl:w-1/3 2xl:w-1/3">
 						<Image
-							src="/mister-vincent-portrait.webp"
+							src={portrait}
 							alt="Portrait Mister Vincent"
 							width={328}
 							height={410}
