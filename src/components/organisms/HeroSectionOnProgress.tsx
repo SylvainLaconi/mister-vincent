@@ -24,7 +24,7 @@ export const HeroSectionOnProgress = () => {
 			</div>
 
 			<h1 className="text-5xl font-semibold text-center text-white">
-				Mister Vincent Solution
+				Mister Vincent
 			</h1>
 
 			<p className="pt-10 text-center text-black text-lg">
@@ -47,7 +47,7 @@ export const HeroSectionOnProgress = () => {
 			</p>
 
 			<p className="pt-5 text-center text-white text-lg">
-				Vincent - Home Organizer
+				Vincent - Home Organiser
 			</p>
 		</div>
 	);
