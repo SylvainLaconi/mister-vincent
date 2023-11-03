@@ -7,8 +7,7 @@ export const ServiceSection = () => {
 		<div className="w-screen p-5 flex flex-col items-center justify-center">
 			<div className="flex flex-col w-full max-w-5xl gap-10">
 				<h2 className="text-2xl text-center text-black lg:text-4xl xl:text-4xl 2xl:text-4xl">
-					Mes <strong className="font-semibold	text-[#c6d200]">services</strong>{' '}
-					de home organiser
+					Mes <strong className="font-semibold	text-[#c6d200]">services</strong>
 				</h2>
 				<div className="grid lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 w-full gap-10">
 					<ServiceCard
