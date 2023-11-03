@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsTelephone } from 'react-icons/bs';
+import { ContactForm } from '../molecules/ContactForm';
 
 export const ContactFormSection = () => {
 	return (
@@ -14,33 +15,7 @@ export const ContactFormSection = () => {
 					<strong className="font-semibold text-[#c6d200]">question</strong> ...
 				</h2>
 				<div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row w-full gap-10">
-					<form className="w-full">
-						<div className="flex flex-col w-full bg-white rounded-xl p-5 gap-5">
-							<input
-								type="text"
-								placeholder="Nom"
-								className="border px-5 py-3"
-							/>
-							<input
-								type="email"
-								placeholder="Email"
-								className="border px-5 py-3"
-								required
-							/>
-							<input
-								type="tel"
-								placeholder="Téléphone"
-								className="border px-5 py-3"
-							/>
-							<textarea placeholder="Message" className="border px-5 py-3" />
-							<button
-								type="submit"
-								className="rounded-full bg-[#c6d200] text-white transition ease-in-out delay-100 hover:bg-[#B1BB00] px-5 py-3"
-							>
-								Envoyer
-							</button>
-						</div>
-					</form>
+					<ContactForm />
 					<div className="flex flex-col w-full gap-5">
 						<h3 className="text-2xl">
 							... ou me contacter{' '}

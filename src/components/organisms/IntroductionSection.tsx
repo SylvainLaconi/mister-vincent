@@ -10,7 +10,7 @@ export const IntroductionSection = () => {
 					Je vous accompage pour{' '}
 					<strong className="font-semibold text-[#c6d200]">ranger</strong>,{' '}
 					<strong className="font-semibold text-[#c6d200]">trier</strong> et{' '}
-					<strong className="font-semibold text-[#c6d200]">désemcombrer</strong>
+					<strong className="font-semibold text-[#c6d200]">désencombrer</strong>
 				</h2>
 				<div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-center gap-10">
 					<div className="w-full lg:w-1/3 xl:w-1/3 2xl:w-1/3">

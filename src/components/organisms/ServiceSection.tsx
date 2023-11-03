@@ -12,17 +12,17 @@ export const ServiceSection = () => {
 				</h2>
 				<div className="grid lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 w-full gap-10">
 					<ServiceCard
-						title="Optimisation des espaces"
+						title="Home organiser"
 						picture={heroImage}
 						content="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 					/>
 					<ServiceCard
-						title="Solutions de rangement"
+						title="Office organiser"
 						picture={heroImage}
 						content="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 					/>
 					<ServiceCard
-						title="Vide maison post-mortem"
+						title="Death cleaner"
 						picture={heroImage}
 						content="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 					/>
