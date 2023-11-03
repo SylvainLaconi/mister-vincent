@@ -6,7 +6,7 @@ import heroImage from '../../../public/mister-vincent-hero.webp';
 export const HeroSectionOnProgress = () => {
 	return (
 		<div
-			className="flex flex-col items-center justify-center z-0"
+			className="flex flex-col items-center justify-center -z-1"
 			style={{
 				height: '100vh',
 				width: '100vw',
@@ -19,7 +19,7 @@ export const HeroSectionOnProgress = () => {
 				objectFit="cover"
 				objectPosition="center"
 			/>
-			<div className="flex flex-col items-center justify-center p-5 gap-10 z-10">
+			<div className="flex flex-col items-center justify-center p-5 gap-4 lg:gap-10 xl:gap-10 2xl:gap-10 z-0">
 				<div className="flex place-items-center">
 					<Image
 						src={logo}
@@ -30,15 +30,15 @@ export const HeroSectionOnProgress = () => {
 					/>
 				</div>
 
-				<h1 className="text-5xl font-semibold text-center text-white">
+				<h1 className="text-4xl lg:text-5xl xl:text-5xl 2xl:text-5xl font-semibold text-center text-white">
 					Mister Vincent
 				</h1>
 
-				<p className="pt-10 text-center text-black text-lg">
+				<p className="text-center text-black lg:text-xl xl:text-xl 2xl:text-xl">
 					Mon site est en construction, mais je suis prêt à vous aider !
 				</p>
 
-				<p className="pt-5 text-center text-black text-lg">
+				<p className="text-center text-black lg:text-xl xl:text-xl 2xl:text-xl">
 					Contactez-moi au{' '}
 					<a href="tel:+33664758405" className="font-semibold">
 						+33 6 64 75 84 05
@@ -53,7 +53,7 @@ export const HeroSectionOnProgress = () => {
 					</a>
 				</p>
 
-				<p className="pt-5 text-center text-white text-lg">
+				<p className="text-center text-white lg:text-xl xl:text-xl 2xl:text-xl">
 					Vincent - Home Organiser
 				</p>
 			</div>
