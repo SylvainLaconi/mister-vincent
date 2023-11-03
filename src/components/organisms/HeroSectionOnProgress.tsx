@@ -15,9 +15,12 @@ export const HeroSectionOnProgress = () => {
 			<Image
 				src={heroImage}
 				alt="Hero image"
-				layout="fill"
-				objectFit="cover"
-				objectPosition="center"
+				fill
+				sizes="100vw"
+				style={{
+					objectFit: 'cover',
+					objectPosition: 'center',
+				}}
 			/>
 			<div className="flex flex-col items-center justify-center p-5 gap-4 lg:gap-10 xl:gap-10 2xl:gap-10 z-0">
 				<div className="flex place-items-center">
