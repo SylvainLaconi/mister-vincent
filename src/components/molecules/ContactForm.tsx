@@ -124,6 +124,7 @@ export const ContactForm = () => {
 						placeholder="Message"
 						className="border px-5 py-3"
 						maxLength={500}
+						rows={5}
 						required
 						{...register('message')}
 					/>
