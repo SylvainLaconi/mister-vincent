@@ -11,19 +11,19 @@ export const ServiceSection = () => {
 				</h2>
 				<div className="grid lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 w-full gap-10">
 					<ServiceCard
-						title="Home organiser"
+						title="Home Organiser"
 						picture={heroImage}
-						content="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+						content="Professionnel du rangement, j'améliore l'organisation de votre logement, afin de mieux circuler, gagner de la place et du temps, ou encore créer de nouveaux espaces."
 					/>
 					<ServiceCard
-						title="Office organiser"
+						title="Office Organiser"
 						picture={heroImage}
-						content="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+						content="En me servant de mon expérience professionnelle du monde des entreprises, je vous aide à optimiser vos espaces afin de les rendre plus efficients, plus sécurisés et plus agréables."
 					/>
 					<ServiceCard
-						title="Death cleaner"
+						title="Death Cleaner"
 						picture={heroImage}
-						content="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+						content="L’objectif d’un Death Cleaning est de rendre votre foyer plus sécurisé, plus fonctionnel et de vous sentir apaisé d'avoir évité à vos proches d’avoir eu à gérer certains désagréments après votre décès."
 					/>
 				</div>
 			</div>

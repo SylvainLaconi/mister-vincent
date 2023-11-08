@@ -41,7 +41,10 @@ export const FooterSection = () => {
 					</div>
 				</div>
 				<div className="flex flex-row gap-5 justify-center w-full">
-					<a href="https://www.facebook.com/" target="_blank">
+					<a
+						href="https://www.facebook.com/profile.php?id=61553234074867"
+						target="_blank"
+					>
 						<BsFacebook size={25} />
 					</a>
 					<a href="https://www.instagram.com/" target="_blank">
