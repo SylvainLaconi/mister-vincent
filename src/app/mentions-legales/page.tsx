@@ -44,6 +44,46 @@ export default function MentionsLegales() {
 						</a>
 					</p>
 				</div>
+				<div className="flex flex-col w-full gap-4">
+					<h3 className="text-2xl text-[#c6d200]">Crédits</h3>
+					<p>
+						<a
+							href="https://www.pexels.com/fr-fr/photo/brouillon-de-dessin-constructeur-masculin-sur-rouleau-de-papier-3760529/"
+							target="_blank"
+						>
+							Photo de Andrea Piacquadio
+						</a>{' '}
+						sur Pexels
+					</p>
+
+					<p>
+						<a
+							href="https://fr.freepik.com/photos-gratuite/femme-nettoyage-maison_2976038.htm#query=rangement&position=7&from_view=search&track=sph"
+							target="_blank"
+						>
+							Image de rawpixel.com
+						</a>{' '}
+						sur Freepik
+					</p>
+					<p>
+						<a
+							href="https://fr.freepik.com/photos-gratuite/service-livraison-entrepot-vide-personne-dedans-plein-rangees-etageres-boites-carton-pret-pour-que-travailleurs-commencent-preparer-colis-interieur-usine-fabrication-industrie-lourde_43107818.htm#query=stockage&position=21&from_view=search&track=sph"
+							target="_blank"
+						>
+							Image de DCStudio
+						</a>{' '}
+						sur Freepik
+					</p>
+					<p>
+						<a
+							href="https://fr.freepik.com/photos-gratuite/repos-ete_5402363.htm#query=retraite&position=15&from_view=search&track=sph"
+							target="_blank"
+						>
+							Image de pressfoto
+						</a>{' '}
+						sur Freepik
+					</p>
+				</div>
 			</div>
 		</div>
 	);

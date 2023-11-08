@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { ServiceCard } from '../molecules/ServiceCard';
-import heroImage from '../../../public/mister-vincent-hero.webp';
+import coupleImage from '../../../public/couple-seniors.webp';
+import houseImage from '../../../public/nettoyage-maison.webp';
+import warehouseImage from '../../../public/entrepot.webp';
 
 export const ServiceSection = () => {
 	return (
@@ -12,17 +14,17 @@ export const ServiceSection = () => {
 				<div className="grid lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 w-full gap-10">
 					<ServiceCard
 						title="Home Organiser"
-						picture={heroImage}
+						picture={houseImage}
 						content="Professionnel du rangement, j'améliore l'organisation de votre logement, afin de mieux circuler, gagner de la place et du temps, ou encore créer de nouveaux espaces."
 					/>
 					<ServiceCard
 						title="Office Organiser"
-						picture={heroImage}
+						picture={warehouseImage}
 						content="En me servant de mon expérience professionnelle du monde des entreprises, je vous aide à optimiser vos espaces afin de les rendre plus efficients, plus sécurisés et plus agréables."
 					/>
 					<ServiceCard
 						title="Death Cleaner"
-						picture={heroImage}
+						picture={coupleImage}
 						content="L’objectif d’un Death Cleaning est de rendre votre foyer plus sécurisé, plus fonctionnel et de vous sentir apaisé d'avoir évité à vos proches d’avoir eu à gérer certains désagréments après votre décès."
 					/>
 				</div>
