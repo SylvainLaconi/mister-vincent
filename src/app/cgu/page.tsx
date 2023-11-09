@@ -4,7 +4,7 @@ export default function Cgu() {
 	return (
 		<div className="flex flex-col w-full items-center justify-center my-10">
 			<div className="flex flex-col w-full gap-10 w-full max-w-5xl px-10">
-				<h2 className="text-2xl text-center text-[#c6d200] lg:text-4xl xl:text-4xl 2xl:text-4xl">
+				<h2 className="text-2xl text-center text-primary lg:text-4xl xl:text-4xl 2xl:text-4xl">
 					Conditions générales d'utilisation
 				</h2>
 				<p className="text-black leading-loose text-justify">
@@ -35,7 +35,7 @@ export default function Cgu() {
 					l’autorisation du directeur de publication.
 				</p>
 
-				<h3 className="text-2xl text-[#c6d200]">Liens hypertextes</h3>
+				<h3 className="text-2xl text-primary">Liens hypertextes</h3>
 				<p className="text-black leading-loose text-justify">
 					Le site MISTER VINCENT peut contenir des liens hypertextes vers
 					d’autres sites présents sur le réseau Internet. Les liens vers ces

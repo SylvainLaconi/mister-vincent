@@ -8,9 +8,9 @@ export const IntroductionSection = () => {
 			<div className="flex flex-col w-full max-w-5xl gap-10">
 				<h2 className="text-2xl text-center text-black lg:text-4xl xl:text-4xl 2xl:text-4xl">
 					Je vous accompage pour{' '}
-					<strong className="font-semibold text-[#c6d200]">ranger</strong>,{' '}
-					<strong className="font-semibold text-[#c6d200]">trier</strong> et{' '}
-					<strong className="font-semibold text-[#c6d200]">désencombrer</strong>
+					<strong className="font-semibold text-primary">ranger</strong>,{' '}
+					<strong className="font-semibold text-primary">trier</strong> et{' '}
+					<strong className="font-semibold text-primary">désencombrer</strong>
 				</h2>
 				<div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row justify-center gap-10">
 					<div className="w-full lg:w-1/3 xl:w-1/3 2xl:w-1/3">

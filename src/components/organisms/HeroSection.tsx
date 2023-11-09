@@ -23,8 +23,8 @@ export const HeroSection = () => {
 					objectPosition: 'center',
 				}}
 			/>
-			<div className="flex flex-col items-center justify-center p-5 gap-4 lg:gap-10 xl:gap-10 2xl:gap-10 z-0">
-				<div className="flex place-items-center">
+			<div className="flex flex-col items-center justify-center p-10 gap-4 lg:gap-10 xl:gap-10 2xl:gap-10 z-0 h-full">
+				<div className="flex place-items-center w-[200px] lg:w-auto">
 					<Image
 						src={logo}
 						alt="Logo Mister Vincent"

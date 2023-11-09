@@ -18,7 +18,7 @@ export const ScrollToHashButton = ({ hash }: ScrollToHashButtonProps) => {
 
 	return (
 		<button
-			className="rounded-full bg-[#c6d200] text-white transition ease-in-out delay-100 hover:bg-[#B1BB00] px-5 py-3"
+			className="rounded-full bg-primary text-white transition ease-in-out delay-100 hover:bg-primary_hover px-5 py-3"
 			onClick={() => scrolltoHash(hash)}
 		>
 			Contactez-moi

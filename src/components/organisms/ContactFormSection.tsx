@@ -12,14 +12,14 @@ export const ContactFormSection = () => {
 			<div className="flex flex-col w-full max-w-5xl gap-10">
 				<h2 className="text-2xl text-center text-black lg:text-4xl xl:text-4xl 2xl:text-4xl">
 					Vous souhaitez simplement me poser une{' '}
-					<strong className="font-semibold text-[#c6d200]">question</strong> ...
+					<strong className="font-semibold text-primary">question</strong> ...
 				</h2>
 				<div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row w-full gap-10">
 					<ContactForm />
 					<div className="flex flex-col w-full gap-5">
 						<h3 className="text-2xl">
 							... ou me contacter{' '}
-							<strong className="font-semibold text-[#c6d200]">
+							<strong className="font-semibold text-primary">
 								directement
 							</strong>
 						</h3>

@@ -65,7 +65,7 @@ export const ContactForm = () => {
 		<form className="w-full" action={sendMailAction}>
 			<div className="flex flex-col w-full bg-white rounded-xl p-5 gap-5">
 				<div className="flex flex-col w-full">
-					<label htmlFor="name" className="text-[#c6d200] font-semibold">
+					<label htmlFor="name" className="text-primary font-semibold">
 						Nom
 					</label>
 					<input
@@ -82,7 +82,7 @@ export const ContactForm = () => {
 				</div>
 
 				<div className="flex flex-col w-full">
-					<label htmlFor="email" className="text-[#c6d200] font-semibold">
+					<label htmlFor="email" className="text-primary font-semibold">
 						Email
 					</label>
 					<input
@@ -100,7 +100,7 @@ export const ContactForm = () => {
 				</div>
 
 				<div className="flex flex-col w-full">
-					<label htmlFor="phone" className="text-[#c6d200] font-semibold">
+					<label htmlFor="phone" className="text-primary font-semibold">
 						Téléphone
 					</label>
 					<input
@@ -116,7 +116,7 @@ export const ContactForm = () => {
 				</div>
 
 				<div className="flex flex-col w-full">
-					<label htmlFor="message" className="text-[#c6d200]  font-semibold">
+					<label htmlFor="message" className="text-primary  font-semibold">
 						Dites-moi en quoi je peux vous aider
 					</label>
 					<textarea
@@ -135,7 +135,7 @@ export const ContactForm = () => {
 
 				<button
 					type="submit"
-					className="rounded-full bg-[#c6d200] text-white transition ease-in-out delay-100 hover:bg-[#B1BB00] px-5 py-3 disabled:opacity-50 disabled:cursor-not-allowed"
+					className="rounded-full bg-primary text-white transition ease-in-out delay-100 hover:bg-primary_hover px-5 py-3 disabled:opacity-50 disabled:cursor-not-allowed"
 					disabled={isSubmitting}
 				>
 					Envoyer
