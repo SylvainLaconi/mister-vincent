@@ -15,17 +15,18 @@ export const ServiceSection = () => {
 					<ServiceCard
 						title="Home Organiser"
 						picture={houseImage}
-						content="Professionnel du rangement, j'améliore l'organisation de votre logement, afin de mieux circuler, gagner de la place et du temps, ou encore créer de nouveaux espaces."
+						content="Avec ou sans vous, je désencombre et j'optimise vos espaces de vie dans votre foyer."
 					/>
 					<ServiceCard
 						title="Office Organiser"
 						picture={warehouseImage}
-						content="En me servant de mon expérience professionnelle du monde des entreprises, je vous aide à optimiser vos espaces afin de les rendre plus efficients, plus sécurisés et plus agréables."
+						content="Je rends plus efficient et plus sécurisé vos zones de travail et de stockage pour votre bien-être et celui de vos équipes."
 					/>
 					<ServiceCard
 						title="Death Cleaner"
 						picture={coupleImage}
-						content="L’objectif d’un Death Cleaning est de rendre votre foyer plus sécurisé, plus fonctionnel et de vous sentir apaisé d'avoir évité à vos proches d’avoir eu à gérer certains désagréments après votre décès."
+						content="Ensemble nous ferons le grand tri afin d'alléger cette tâche pour vos héritiers, et nous rangerons pour votre confort d'aujourd'hui.
+"
 					/>
 				</div>
 			</div>

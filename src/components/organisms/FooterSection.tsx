@@ -47,18 +47,21 @@ export const FooterSection = () => {
 					>
 						<BsFacebook size={25} />
 					</a>
-					<a href="https://www.instagram.com/" target="_blank">
+					{/* <a href="https://www.instagram.com/" target="_blank">
 						<BsInstagram size={25} />
-					</a>
-					<a href="https://www.pinterest.fr/" target="_blank">
+					</a> */}
+					<a href="https://www.pinterest.fr/MisterVincent69/" target="_blank">
 						<BsPinterest size={25} />
 					</a>
-					<a href="https://fr.linkedin.com/" target="_blank">
+					<a
+						href="https://www.linkedin.com/company/mister-vincent/about/?viewAsMember=true"
+						target="_blank"
+					>
 						<BsLinkedin size={25} />
 					</a>
-					<a href="https://www.youtube.com/" target="_blank">
+					{/* <a href="https://www.youtube.com/" target="_blank">
 						<BsYoutube size={25} />
-					</a>
+					</a> */}
 				</div>
 				<p className="text-xs p-5 text-center">2023 @ TOUS DROITS RÉSERVÉS</p>
 			</div>

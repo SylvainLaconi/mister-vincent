@@ -42,6 +42,10 @@ export const HeroSection = () => {
 					Mister Vincent
 				</h1>
 
+				<h2 className="text-md lg:text-xl text-center text-white">
+					Home Organiser - Office Organiser - Death Cleaner
+				</h2>
+
 				<ScrollToHashButton hash="contact" />
 			</div>
 		</div>
