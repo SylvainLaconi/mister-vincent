@@ -13,9 +13,9 @@ export default function Home() {
 			<HeroSection />
 			<IntroductionSection />
 			<ServiceSection />
-			{/* <AchievementSection />
-			<SocialProofSection />
-			<PricingSection /> */}
+			{/* <AchievementSection /> */}
+			{/* <SocialProofSection /> */}
+			<PricingSection />
 			<ContactFormSection />
 			<FooterSection />
 		</main>

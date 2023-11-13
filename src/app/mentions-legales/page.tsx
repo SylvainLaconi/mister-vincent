@@ -27,7 +27,7 @@ export default function MentionsLegales() {
 					<h3 className="text-2xl text-primary">
 						Responsable de la publication
 					</h3>
-					<p>Malordy Vincent / 0664758405 / vincent@mister-vincent.fr</p>
+					<p>Malordy Vincent / +33 6 67 51 20 14 / vincent@mister-vincent.fr</p>
 				</div>
 
 				<div className="flex flex-col w-full gap-4">
@@ -46,7 +46,7 @@ export default function MentionsLegales() {
 				</div>
 				<div className="flex flex-col w-full gap-4">
 					<h3 className="text-2xl text-primary">Crédits</h3>
-					<p>
+					{/* <p>
 						<a
 							href="https://www.pexels.com/fr-fr/photo/brouillon-de-dessin-constructeur-masculin-sur-rouleau-de-papier-3760529/"
 							target="_blank"
@@ -54,6 +54,26 @@ export default function MentionsLegales() {
 							Photo de Andrea Piacquadio
 						</a>{' '}
 						sur Pexels
+					</p> */}
+
+					{/* <p>
+						<a
+							href="https://fr.freepik.com/photos-gratuite/appartement-moderne-mobilier-confortable-creativite-generee-par-ia_41294705.htm#page=2&query=salon%20scandinave&position=28&from_view=search&track=ais"
+							target="_blank"
+						>
+							Image de vecstock
+						</a>{' '}
+						sur Freepik
+					</p> */}
+
+					<p>
+						Image de{' '}
+						<a
+							href="https://fr.freepik.com/photos-gratuite/boutique-moderne-prete-pour-encheres-direct_34914318.htm#query=maison%20rangement&position=28&from_view=search&track=ais"
+							target="_blank"
+						>
+							Freepik
+						</a>
 					</p>
 
 					<p>

@@ -10,7 +10,7 @@ type ServiceCardProps = {
 
 export const ServiceCard = ({ title, picture, content }: ServiceCardProps) => {
 	return (
-		<div className="flex flex-col bg-white rounded-xl p-5 w-full gap-5">
+		<div className="flex flex-col bg-white rounded-xl p-5 w-full gap-5 shadow-2xl">
 			<Image
 				src={picture}
 				alt={title}

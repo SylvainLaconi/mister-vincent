@@ -63,7 +63,7 @@ export const ContactForm = () => {
 
 	return (
 		<form className="w-full" action={sendMailAction}>
-			<div className="flex flex-col w-full bg-white rounded-xl p-5 gap-5">
+			<div className="flex flex-col w-full bg-white rounded-xl p-5 gap-5 shadow-2xl">
 				<div className="flex flex-col w-full">
 					<label htmlFor="name" className="text-primary font-semibold">
 						Nom

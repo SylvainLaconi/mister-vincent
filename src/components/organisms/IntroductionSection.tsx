@@ -24,6 +24,9 @@ export const IntroductionSection = () => {
 								width: '100%',
 								height: 'auto',
 								maxWidth: '100%',
+								backgroundColor: 'transparent',
+								boxShadow:
+									'0 0 #0000, 0 0 #0000,0 0 #0000, 0 25px 50px -12px rgba(0, 0, 0, 0.25)',
 							}}
 						/>
 					</div>

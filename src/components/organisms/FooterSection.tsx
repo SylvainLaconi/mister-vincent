@@ -2,10 +2,10 @@ import Image from 'next/image';
 import * as React from 'react';
 import {
 	BsFacebook,
-	BsInstagram,
+	// BsInstagram,
 	BsPinterest,
 	BsLinkedin,
-	BsYoutube,
+	// BsYoutube,
 } from 'react-icons/bs';
 import logo from '../../../public/mister-vincent-logo-white.webp';
 import Link from 'next/link';
@@ -37,7 +37,7 @@ export const FooterSection = () => {
 						<p></p>
 						<p>www.mister-vincent.fr</p>
 						<p>vincent@mister-vincent.fr</p>
-						<p>+33 6 64 75 84 05</p>
+						<p>+33 6 67 51 20 14</p>
 					</div>
 				</div>
 				<div className="flex flex-row gap-5 justify-center w-full">

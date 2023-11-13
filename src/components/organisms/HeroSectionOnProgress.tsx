@@ -47,8 +47,8 @@ export const HeroSectionOnProgress = () => {
 
 				<p className="text-center text-black lg:text-xl xl:text-xl 2xl:text-xl">
 					Contactez-moi au{' '}
-					<a href="tel:+33664758405" className="font-semibold">
-						+33 6 64 75 84 05
+					<a href="tel:+33667512014" className="font-semibold">
+						+33 6 67 51 20 14
 					</a>{' '}
 					ou par email à{' '}
 					<a

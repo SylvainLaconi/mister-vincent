@@ -24,16 +24,16 @@ export const ContactFormSection = () => {
 							</strong>
 						</h3>
 						<ul className="flex flex-col gap-5">
-							<li className="flex gap-2 items-center">
+							<li key={'mail'} className="flex gap-2 items-center">
 								<AiOutlineMail size={20} />
 								<a href="mailto:vincent@mister-vincent.fr" target="_blank">
 									vincent@mister-vincent.fr
 								</a>
 							</li>
-							<li className="flex gap-2 items-center">
+							<li key={'phone'} className="flex gap-2 items-center">
 								<BsTelephone size={20} />
-								<a href="tel:+33664758405" target="_blank">
-									+33 6 64 75 84 05
+								<a href="tel:+33667512014" target="_blank">
+									+33 6 67 51 20 14
 								</a>
 							</li>
 						</ul>

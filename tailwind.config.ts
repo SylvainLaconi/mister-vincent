@@ -10,10 +10,26 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#c6d200",
-        primary_hover: "#b1bb00"
-      }
+        primary_hover: "#b1bb00",
+        white_hover: "#f5f5f5",
+      },
+      animation: {
+        'fade-in-down': 'fade-in-down ease-in-out'
+      },
+      keyframes: {
+        'fade-in-down': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(100px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          },
+        }
+      },
+      },
     },
-  },
   plugins: [],
 }
 export default config
