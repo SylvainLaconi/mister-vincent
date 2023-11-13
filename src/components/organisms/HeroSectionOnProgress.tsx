@@ -15,9 +15,12 @@ export const HeroSectionOnProgress = () => {
 			<Image
 				src={heroImage}
 				alt="Hero image"
-				layout="fill"
-				objectFit="cover"
-				objectPosition="center"
+				fill
+				sizes="100vw"
+				style={{
+					objectFit: 'cover',
+					objectPosition: 'center',
+				}}
 			/>
 			<div className="flex flex-col items-center justify-center p-5 gap-4 lg:gap-10 xl:gap-10 2xl:gap-10 z-0">
 				<div className="flex place-items-center">
@@ -27,6 +30,10 @@ export const HeroSectionOnProgress = () => {
 						width={300}
 						height={300}
 						priority
+						style={{
+							maxWidth: '100%',
+							height: 'auto',
+						}}
 					/>
 				</div>
 
@@ -40,8 +47,8 @@ export const HeroSectionOnProgress = () => {
 
 				<p className="text-center text-black lg:text-xl xl:text-xl 2xl:text-xl">
 					Contactez-moi au{' '}
-					<a href="tel:+33664758405" className="font-semibold">
-						+33 6 64 75 84 05
+					<a href="tel:+33667512014" className="font-semibold">
+						+33 6 67 51 20 14
 					</a>{' '}
 					ou par email à{' '}
 					<a

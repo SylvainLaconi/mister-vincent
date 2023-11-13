@@ -7,7 +7,7 @@ const lexendDeca = Lexend_Deca({ subsets: ['latin'] });
 export const metadata: Metadata = {
 	title: 'Mister Vincent | Home Organiser & Coach en rangement à Lyon',
 	description:
-		"Je vous accompagne pour optimiser, transformer et organiser vos espaces de vie et de travail. A l'écoute de vos contraintes et de vos besoins pour vous proposer des solutions adaptées à votre mode de vie.",
+		"Lyon et alentours - Home Organiser et Coach en rangement, je vous accompagne pour optimiser, transformer et organiser vos espaces de vie et de travail. A l'écoute de vos contraintes et de vos besoins pour vous proposer des solutions adaptées à votre mode de vie.",
 };
 
 export default function RootLayout({
@@ -17,7 +17,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="fr">
-			<body className={lexendDeca.className}>{children}</body>
+			<body className={lexendDeca.className} cz-shortcut-listen="true">
+				{children}
+			</body>
 		</html>
 	);
 }
