@@ -16,14 +16,14 @@ export const ContactFormSection = () => {
 				</h2>
 				<div className="flex flex-col lg:flex-row xl:flex-row 2xl:flex-row w-full gap-10">
 					<ContactForm />
-					<div className="flex flex-col w-full gap-5">
-						<h3 className="text-2xl">
+					<div className="flex flex-col items-center w-full gap-5">
+						<h3 className="text-2xl w-full text-center">
 							... ou me contacter{' '}
 							<strong className="font-semibold text-primary">
 								directement
 							</strong>
 						</h3>
-						<ul className="flex flex-col gap-5">
+						<ul className="flex flex-col gap-5 w-full items-center">
 							<li key={'mail'} className="flex gap-2 items-center">
 								<AiOutlineMail size={20} />
 								<a href="mailto:vincent@mister-vincent.fr" target="_blank">
