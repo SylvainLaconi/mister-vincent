@@ -7,7 +7,7 @@ export const IntroductionSection = () => {
 	return (
 		<SectionLayout>
 			<h2 className="text-2xl text-center text-black lg:text-4xl xl:text-4xl 2xl:text-4xl">
-				Je vous accompage pour{' '}
+				Je vous accompagne pour{' '}
 				<strong className="font-semibold text-primary">ranger</strong>,{' '}
 				<strong className="font-semibold text-primary">trier</strong> et{' '}
 				<strong className="font-semibold text-primary">désencombrer</strong>
