@@ -20,13 +20,13 @@ export const PricingCard = ({
 				variant ? 'bg-primary text-white' : 'bg-white'
 			}"}`}
 		>
-			<h4
+			<h3
 				className={`w-full text-center ${
 					variant ? 'text-white' : 'text-black'
 				}`}
 			>
 				{title}
-			</h4>
+			</h3>
 
 			<div className="w-full">
 				<p

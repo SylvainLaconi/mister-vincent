@@ -44,18 +44,24 @@ export const FooterSection = () => {
 					<a
 						href="https://www.facebook.com/profile.php?id=61553234074867"
 						target="_blank"
+						aria-label="Lien vers la page Facebook de Mister Vincent"
 					>
 						<BsFacebook size={25} />
 					</a>
 					{/* <a href="https://www.instagram.com/" target="_blank">
 						<BsInstagram size={25} />
 					</a> */}
-					<a href="https://www.pinterest.fr/MisterVincent69/" target="_blank">
+					<a
+						href="https://www.pinterest.fr/MisterVincent69/"
+						target="_blank"
+						aria-label="Lien vers la page Pinterest de Mister Vincent"
+					>
 						<BsPinterest size={25} />
 					</a>
 					<a
 						href="https://www.linkedin.com/company/mister-vincent/about/?viewAsMember=true"
 						target="_blank"
+						aria-label="Lien vers la page Linkedin de Mister Vincent"
 					>
 						<BsLinkedin size={25} />
 					</a>
