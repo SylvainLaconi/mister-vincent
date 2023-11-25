@@ -7,7 +7,10 @@ const lexendDeca = Lexend_Deca({ subsets: ['latin'] });
 export const metadata: Metadata = {
 	title: 'Mister Vincent | Home Organiser & Coach en rangement à Lyon',
 	description:
-		"Lyon et alentours - Home Organiser et Coach en rangement, je vous accompagne pour optimiser, transformer et organiser vos espaces de vie et de travail. A l'écoute de vos contraintes et de vos besoins pour vous proposer des solutions adaptées à votre mode de vie.",
+		'Lyon et alentours - Home Organiser et Coach en rangement, je vous accompagne pour optimiser, transformer et organiser vos espaces de vie et de travail.',
+	alternates: {
+		canonical: 'https://www.mister-vincent.fr',
+	},
 };
 
 export default function RootLayout({
