@@ -16,17 +16,19 @@ export const ServiceSection = () => {
 					title="Home Organiser"
 					picture={houseImage}
 					content="Avec ou sans vous, je désencombre et j'optimise vos espaces de vie dans votre foyer."
+					href="/home-organiser"
 				/>
 				<ServiceCard
 					title="Office Organiser"
 					picture={warehouseImage}
 					content="Je rends plus efficient et plus sécurisé vos zones de travail et de stockage pour votre bien-être et celui de vos équipes."
+					href="/office-organiser"
 				/>
 				<ServiceCard
 					title="Death Cleaner"
 					picture={coupleImage}
-					content="Ensemble nous ferons le grand tri afin d'alléger cette tâche pour vos héritiers, et nous rangerons pour votre confort d'aujourd'hui.
-"
+					content="Ensemble nous ferons le grand tri afin d'alléger cette tâche pour vos héritiers, et nous rangerons pour votre confort d'aujourd'hui."
+					href="/death-cleaner"
 				/>
 			</div>
 		</SectionLayout>
