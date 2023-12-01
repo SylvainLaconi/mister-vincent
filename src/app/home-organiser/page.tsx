@@ -50,9 +50,10 @@ export default function HomeOrganiser() {
 				<p className="text-black leading-loose text-justify mb-10">
 					Découvrez comment je peux transformer votre domicile en un sanctuaire
 					organisé et fonctionnel. Ensemble, nous repensons l'aménagement pour
-					maximiser chaque centimètre carré. Je crée des systèmes sur mesure
-					pour simplifier votre quotidien, réduire le désordre et apporter une
-					harmonie à votre espace de vie.
+					maximiser chaque centimètre carré. Dans certains cas je peux aussi
+					créer des systèmes de rangement sur mesure pour simplifier votre
+					quotidien, réduire le désordre et apporter une harmonie à votre espace
+					de vie.
 				</p>
 
 				<h3 className="text-2xl mb-10">Désencombrement Personnalisé</h3>
@@ -74,6 +75,24 @@ export default function HomeOrganiser() {
 					permettant de profiter pleinement de chaque instant sans le fardeau du
 					désordre.
 				</p>
+
+				<h3 className="text-2xl mb-10">Quel est votre besoin ?</h3>
+
+				<ul className="list-disc mb-10">
+					<li className="text-black leading-loose text-justify">
+						événement familiale (avant ou après un déménagement, naissance,
+						départ d’un enfant après ses études. décès d’un proche…)
+					</li>
+					<li className="text-black leading-loose text-justify">
+						envie de changements (travaux, nettoyage de printemps, accumulation
+						au grès des années….)
+					</li>
+					<li className="text-black leading-loose text-justify">
+						créer un nouvel espace (télétravail, espace de jeux…). ou en rendre
+						un plus fonctionnel (combles, cave, grenier, garage, abris
+						extérieur, dépendance…)
+					</li>
+				</ul>
 
 				<p className="text-black leading-loose text-justify">
 					Votre maison peut devenir un lieu de calme et de clarté. Contactez-moi

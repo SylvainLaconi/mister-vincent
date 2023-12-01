@@ -48,28 +48,36 @@ export default function OfficeOrganiser() {
 
 				<p className="text-black leading-loose text-justify mb-10">
 					Plongez dans une nouvelle façon de travailler. Ensemble, nous
-					repensons votre espace professionnel pour optimiser chaque coin. Je
-					crée des systèmes sur mesure, vous permettant de travailler
+					repensons votre espace professionnel pour optimiser chaque coin. Après
+					une analyse des flux de personnel et de matériel, j’adapte l’existant,
+					et je propose des aménagements , vous permettant de travailler
 					efficacement tout en donnant vie à un bureau qui inspire la
 					productivité.
 				</p>
 
-				<h3 className="text-2xl mb-10">Désencombrement Personnalisé</h3>
+				<h3 className="text-2xl mb-10">Plus d’efficience</h3>
 
 				<p className="text-black leading-loose text-justify mb-10">
 					Du tri initial à la mise en place de solutions de rangement adaptées à
 					votre entreprise, je vous accompagne pour éliminer le superflu.
-					Libérez de l'espace pour favoriser une atmosphère claire et
-					concentrée, propice à des idées brillantes.
+					Libérez de l'espace pour favoriser une atmosphère sereine, propice à
+					des idées brillantes.
 				</p>
 
-				<h3 className="text-2xl mb-10">Organisation Durable</h3>
+				<h3 className="text-2xl mb-10">Plus de confort</h3>
 
 				<p className="text-black leading-loose text-justify mb-10">
 					Je ne me contente pas de désencombrer votre espace professionnel. Je
 					vous fournis également les outils et les stratégies pour maintenir un
-					environnement de travail organisé. Ensemble, nous façonnons un lieu où
-					l'efficacité et la créativité se rencontrent harmonieusement.
+					environnement de travail organisé et aéré. Ensemble, nous façonnons un
+					lieu où l'efficacité et la créativité se rencontrent harmonieusement.
+				</p>
+
+				<h3 className="text-2xl mb-10">Plus de sécurité</h3>
+
+				<p className="text-black leading-loose text-justify mb-10">
+					En reprenant le contrôle de vos espaces de travail, vous gagnerez en
+					ergonomie, gage de sécurité.
 				</p>
 
 				<p className="text-black leading-loose text-justify">

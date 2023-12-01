@@ -50,35 +50,39 @@ export default function DeathCleaner() {
 					Offrez-vous un nouveau départ en faisant place à la clarté et à
 					l'organisation. Mon service de Death Cleaning vous accompagne dans la
 					rationalisation et l'optimisation de votre espace de vie. En
-					travaillant ensemble, nous créons un environnement ordonné,
-					simplifiant votre quotidien et préparant sereinement l'avenir.
+					travaillant ensemble, nous créons un environnement ordonné et
+					sécurisé, simplifiant votre quotidien et préparant sereinement
+					l'avenir.
 				</p>
 
 				<h3 className="text-2xl mb-10">Tri et Transmission</h3>
 
 				<p className="text-black leading-loose text-justify mb-10">
-					Du tri méticuleux à la gestion des biens, je vous guide pour
-					désencombrer votre foyer tout en préservant l'essentiel. Ensemble,
-					nous facilitons la transition en honorant les souvenirs et en
-					préparant une transition douce pour vos proches, évitant ainsi le
-					fardeau émotionnel après votre départ.
+					Du tri méticuleux à la gestion des objets liés à vos souvenirs, je
+					vous guide pour désencombrer votre foyer tout en conservant
+					l'essentiel. Ensemble, nous préparons une transition douce pour vos
+					proches, limitant ainsi ce fardeau émotionnel après votre départ.
 				</p>
 
 				<h3 className="text-2xl mb-10">Soutien Personnalisé</h3>
 
 				<p className="text-black leading-loose text-justify mb-10">
-					Au-delà du rangement physique, je vous offre un soutien empathique
-					pour aborder cette étape délicate. Mon objectif est de vous
-					accompagner dans cette démarche avec respect et compréhension, créant
-					un espace de vie harmonieux et soulageant vos proches de
-					préoccupations futures.
+					Au-delà du rangement physique, que ce soit pour mieux vivre au
+					quotidien ou pour préparer votre départ, mon empathie me permet de
+					vous offrir un soutien adapté pour aborder cette étape délicate. Mon
+					objectif est de vous accompagner dans cette démarche avec respect et
+					compréhension, pour créer un espace de vie harmonieux tout en
+					soulageant vos proches de préoccupations futures.
+				</p>
+
+				<p className="text-black leading-loose text-justify mb-10">
+					En organisant votre domicile aujourd’hui, votre foyer sera plus adapté
+					à votre quotidien et vous faciliterez l'avenir de vos proches.
 				</p>
 
 				<p className="text-black leading-loose text-justify">
-					Préparez-vous et vos proches à l'avenir en organisant votre domicile
-					aujourd'hui. Contactez-moi pour commencer cette démarche de Death
-					Cleaning et offrir ainsi une transition en douceur pour vous et votre
-					famille.
+					Contactez-moi pour commencer cette démarche de Death Cleaning et
+					offrir ainsi une transition en douceur pour vous et votre famille.
 				</p>
 			</div>
 
