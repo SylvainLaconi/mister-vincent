@@ -1,5 +1,5 @@
-import AnnexeLayout from '@/components/layouts/AnnexeLayout';
+import PageLayout from '@/components/layouts/PageLayout';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-	return <AnnexeLayout>{children}</AnnexeLayout>;
+	return <PageLayout>{children}</PageLayout>;
 }
