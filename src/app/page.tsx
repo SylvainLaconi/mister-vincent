@@ -15,7 +15,7 @@ export default function Home() {
 			<ServiceSection />
 			{/* <AchievementSection /> */}
 			{/* <SocialProofSection /> */}
-			<PricingSection />
+			{/* <PricingSection /> */}
 			<ContactFormSection />
 			<FooterSection />
 		</main>
